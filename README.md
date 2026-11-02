@@ -69,7 +69,7 @@ python run_mock.py          # http://127.0.0.1:5000
 python -m pytest -q --junitxml=reports/junit.xml
 ```
 
-## 用例清单（17 条）
+## 用例清单（18 条）
 
 **登录（5）**
 1. 公钥接口返回合法 RSA 2048 公钥
