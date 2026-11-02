@@ -5,9 +5,11 @@ RSA 加密登录、MD5 签名、AES 加密响应、Token 自动刷新（并发�
 
 配套的 Mock 服务是 Flask 写的，测试端是 Pytest + requests，**18 条用例，本地约 2 秒跑完**。
 
+![pytest 全绿](docs/pytest-pass.png)
+
 ```
 $ python -m pytest -q
-17 passed in 1.9s
+18 passed in 1.4s
 ```
 
 ---
